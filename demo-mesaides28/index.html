@@ -52,23 +52,9 @@
     </style>
   </head>
   <body>
-    <noscript>
-      <strong>Désolé mesaides28.fr n'est pas fonctionnel si le JavaScript n'est pas activé.</strong>
-    </noscript>
-    <script src="iframeResizer.min.js"></script>
-    <header>
-        <a href="demo-mesaides28">MES<span class="bold">AIDES</span>28</a>
-    </header>
-    <iframe
-      id="iframe"
-      style="border: none; min-height: 700px"
-      src="https://mes-aides.org?themeColor=%232494b5&iframe"
-      width="100%"
-      scrolling="auto"
-    ></iframe>
     <script>
-        iFrameResize({ log: false }, '#iframe')
+        window.location.href = '/'
+        // document.href = 'http://localhost:8001'
     </script>
-
   </body>
 </html>
